@@ -1,0 +1,61 @@
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+h1{
+	font-size: 30px;
+	color:rgb(187, 255, 0);
+	text-align: center;
+}
+
+#paragraph_1{
+	color:chocolate;
+}
+
+p {
+	color:rgb(250, 246, 0);
+}
+.content p,
+.content span {
+	color: red;
+}
+
+.content .content__item,
+.content .content__text {
+	color:rgb(8, 252, 170);
+}
+
+.content__item,
+.content__text,
+footer {
+	color: yellowgreen;
+}
+
+
