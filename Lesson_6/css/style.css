@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap&display=swap&subset=cyrillic-ext');
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-size: inherit;
+}
+
+img {
+    vertical-align: top;
+}
+
+html,
+body{
+    height: 100%;
+}
+
+html{
+    font-size: 16px; /* По умолчанию */
+}
+
+body{
+    line-height: 1;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    background-color: #c0b8b8bd;
+}
+
+.zagolovok{
+    text-align: center;
+    font-size: 45px;
+    color:#ffffffe8;
+}
+
+.header{
+    font-size: 25px;
+    border: 5px double #0dccb3;
+    margin: 15px 25px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+.zagolovok_two{
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+    color: #f8f8f8;
+}
+
+.osnova{
+    font-size: 23px;
+    margin: 25px;
+    border: 2px dotted #008080;
+    border-radius: 12px;
+}
+
+.zagolovok_tree{
+    display: inline-block;
+	background-color: #008080;
+	color: #fff;
+	padding: 15px;
+	border: 5px solid #36d7dd;
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 50%;
+}
+
+.osnova_two{
+
+    color: #36d7dd;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    padding: 25px;
+    font-size: 25px;
+    border: 2px solid white;
+    margin: 10px 0px;
+    box-shadow: 1px 2px 8px 4px #ff0000, -5px 7px 1px 2px #000000;
+}
+
+.main{
+    margin: 25px 15px;
+}
+
+.zagolovok_four{
+    text-align: center;
+}
+
+.homework_krug{
+    background-color: #ff0000;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.zadanie_two{
+    color:#a52a2a;
+    opacity: 0.5;
+}
+
+.zadanie_tree{
+    margin: 15px;
+    outline: 5px solid #666;
+    padding: 15px;
+    background-color: #0000ff;
+}
+
+.zadanie_four{
+    background-color:#5f9ea0;
+    border-left: 4px dotted #ff0000;
+    border-bottom: 5px dashed #000000;
+    border-top: 7px double #008000;
+    border-right: 7px solid #9cff07;
+}
+
+.link {
+    display: inline-block;
+    background-color: #232453;
+    border: 4px dotted #ff0000;
+    border-radius: 20px;
+    color: #5b37df;
+    box-shadow: 7px 17px 25px 15px #34ec6c;
+    padding: 10px;
+    margin: 30px;
+    }
